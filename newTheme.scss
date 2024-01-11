@@ -1,0 +1,15 @@
+
+@import 'scss/functions';
+@import 'scss/variables';
+
+$new-theme-colors: (
+  'back': rgb(117, 80, 254),
+  'bt-main-color': rgb(26, 203, 152),
+  'back-orange': rgba(240, 156, 0, 0.082),
+  'orange': rgb(202, 118, 7),
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+
+@import 'scss/bootstrap.scss';
